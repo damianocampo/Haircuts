@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:id="@+id/imagenTacha"
+
+            android:background="@color/blanco"
+            android:src="@android:drawable/ic_delete"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/descripcionCesta"
+            android:paddingTop="@dimen/top_detalle_cesta"
+            android:layout_weight="0.30"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:paddingTop="@dimen/top_detalle_cesta"
+            android:layout_gravity="right"
+            android:id="@+id/precioCesta"
+            android:paddingLeft="10dp"
+            android:layout_weight="0.48" />
+
+    </LinearLayout>
+</LinearLayout>

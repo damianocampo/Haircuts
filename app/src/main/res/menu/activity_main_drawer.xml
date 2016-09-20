@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_perfil"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_servicios"
+            android:title="@string/menu_service" />
+        <item
+            android:id="@+id/nav_barberos"
+            android:title="@string/menu_barbers" />
+        <item
+            android:id="@+id/nav_ventas"
+            android:title="@string/menu_sales" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_feedback"
+                android:title="@string/menu_feedback" />
+        </menu>
+    </item>
+
+</menu>
